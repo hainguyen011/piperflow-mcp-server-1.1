@@ -8,3 +8,6 @@ dependencies = [
     "fastmcp>=2.12.4",
     "mcp[cli]>=1.15.0",
 ]
+
+[project.scripts]
+mcp-tool-server = "servers.mcp_tool_server.app:app"
